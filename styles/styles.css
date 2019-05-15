@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono|Cousine');
+
+html, body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Cousine';
+}
+
+.main{
+    background-color: #D2D0BA;
+    /* background-color: #E5C1BD; */
+    /* background-color: #DAD8C6; */
+    padding: 0;
+    margin: 0 auto;
+    height: 100vh;
+    display: block;
+    text-align: center;
+}
+
+.main-name{
+    color: #5E747F;
+    padding-top: 30vh;
+    display: inline-block;
+    font-family: 'Ubuntu Mono';
+    /* font-size: 5em; */
+    margin: 0;
+}
+
+p{
+    /* font-size: 1.5em; */
+    color: #7B9E87;
+    /* color: #fff; */
+}
+
+.github-logo-container{
+    display: inline-block;
+}
+.octicon-mark-github{
+    opacity: 0.6;
+}
+.octicon-mark-github:hover{
+    opacity: 0.9;
+}
+
+/* -- Media Queries - MobileFirst -- */
+@media all and (max-width: 319px){
+    .main-name{
+        width: 80vw;
+        font-size: 12vw;
+    }
+    p{
+        font-size: 5vw;
+    }
+}
+
+@media all and (min-width: 320px) {
+    .main-name{
+        font-size: 2.5em;
+    }
+    p{
+        font-size: 1em;
+    }
+}
+
+@media all and (min-width: 400px) {
+    .main-name{
+        font-size:3em;
+    }
+    p{
+        font-size: 1.em;
+    }
+}
+
+@media all and (min-width: 600px) {
+    .main-name{
+        font-size:5em;
+    }
+    p{
+        font-size: 1.5em;
+    }
+}
+
+@media all and (min-width: 900px) {
+    .main-name{
+        font-size:5em;
+    }
+    p{
+        font-size: 1.5em;
+    }
+}
+
+@media all and (min-width: 1200px) {
+    .main-name{
+        font-size:6em;
+    }
+    p{
+        font-size: 2em;
+    }
+}
+
+@media all and (min-width: 1800px) {
+    .main-name{
+        font-size:9em;
+    }
+    p{
+        font-size: 3em;
+    }
+}
+
+@media all and (min-width: 2400px) {
+    .main-name{
+        font-size:12em;
+    }
+    p{
+        font-size: 4em;
+    }
+}
